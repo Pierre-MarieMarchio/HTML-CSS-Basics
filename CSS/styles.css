@@ -9,6 +9,15 @@ body{
     margin: 0px;
 }
 
+/******     HTML     ******/
+
+hr{
+    border: dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: 5rem auto ;
+}
+
 /******     Font     ******/
 
 h1{
@@ -45,7 +54,7 @@ p{
 
 .titreDiv {
     background-color: #F6F1E9;
-    margin: 0px;
+    
     position: relative;
     padding-top : 5em;
     font-size: 2em;
@@ -62,15 +71,17 @@ p{
 
 .topCloud{
     position: absolute;
-    left: -6em;
-    bottom: 5em;
-    width: 5em;   
+    left: -5%;
+    bottom: 120%;
+    width: 20%
+    
+       
 }
 .botomCloud{
     position: absolute;
-    right: -6em;
-    top: 5em;
-    width: 5em;
+    right: -5%;
+    top: 120%;
+    width: 20%
 }
 .skill-row{
     margin: 10rem auto 10rem auto;
