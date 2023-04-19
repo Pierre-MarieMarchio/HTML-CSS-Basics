@@ -54,7 +54,8 @@ p{
 
 .titreDiv {
     background-color: #F6F1E9;
-    
+    padding-left: 5rem;
+    padding-right: 5rem;
     position: relative;
     padding-top : 5em;
     font-size: 2em;
@@ -103,7 +104,7 @@ p{
 
 /****** images ******/
 .mountaine-image{
-    width: 59em;
+    width: 90%;
 }
 
 .imgRound{
