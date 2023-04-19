@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.titre{
+    margin: 0px;
+}
+
+/******     Font     ******/
+
+h1{
+font-family:'Sacramento', sans-serif;
+font-size: 4rem;
+}
+h2{
+    font-family: 'Sacramento', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+    font-family:'Sacramento', sans-serif;
+    
+}
+p{
+    font-family:'Sacramento', sans-serif;
+    
+}
+
+/****** Div Elements ******/
+
+.titreDiv {
+    background-color: #F6F1E9;
+    margin: 0px;
+    position: relative;
+    padding-top : 5em;
+    font-size: 2em;
+} 
+
+.clouds-div{
+    position: relative;
+    max-width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.topCloud{
+    position: absolute;
+    left: -6em;
+    bottom: 5em;
+    width: 5em;   
+}
+.botomCloud{
+    position: absolute;
+    right: -6em;
+    top: 5em;
+    width: 5em;
+}
+.skill-row{
+    margin: 10rem auto 10rem auto;
+    max-width: 50%;
+    text-align: start;
+    line-height: 2;
+}
+
+.profile{
+    margin: 6rem auto 6rem auto;
+    max-width: 50%;
+}
+
+.contact-me{
+    margin: 6rem auto 6rem auto;
+    max-width: 50%;
+   
+}
+
+/****** images ******/
+.mountaine-image{
+    width: 59em;
+}
+
+.imgRound{
+
+    border-radius: 50%;
+    max-width: 20%;
+    text-align: center;
+   
+}
+.imgRound-skill{
+
+    border-radius: 50%;
+    max-width: 20%;
+    text-align: center;
+    float: left;
+    margin-right: 1.8rem;
+}
