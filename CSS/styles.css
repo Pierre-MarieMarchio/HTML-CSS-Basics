@@ -1,3 +1,6 @@
+
+/******************************** HTML ********************************/
+
 body{
     margin: 0px;
     text-align: center;
@@ -9,8 +12,6 @@ body{
     margin: 0px;
 }
 
-/******     HTML     ******/
-
 hr{
     border: dotted;
     border-bottom: none;
@@ -18,34 +19,44 @@ hr{
     margin: 5rem auto ;
 }
 
-/******     Font     ******/
+a{
+  color: #11999e;  
+  font-family: 'Sacramento', sans-serif;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6ea;
+}
 
 h1{
 font-family:'Sacramento', sans-serif;
 font-size: 4rem;
 }
+
 h2{
     font-family: 'Sacramento', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 0.8rem;
 }
+
 h3{
     font-family:'Sacramento', sans-serif;
     
 }
+
 p{
     font-family:'Sacramento', sans-serif;
     
 }
 
-/******   container  ******/
+/******************************** container ********************************/
 
 .middle-container{
     margin: 5rem 0;
 }
-
-/****** Div Elements ******/
 
 .intro{
     width: 80%;
@@ -70,6 +81,15 @@ p{
     padding-right: 15px;
 }
 
+.bottom-container{
+    background-color: lightblue;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+}
+
+/******************************** Div Elements ********************************/
+
+
 .topCloud{
     position: absolute;
     left: -5%;
@@ -85,7 +105,7 @@ p{
     width: 20%
 }
 .skill-row{
-    margin: 10rem auto 10rem auto;
+    margin: 5rem auto ;
     max-width: 50%;
     text-align: start;
     line-height: 2;
@@ -97,12 +117,27 @@ p{
 }
 
 .contact-me{
-    margin: 6rem auto 6rem auto;
+    margin: 2rem auto ;
     max-width: 50%;
    
 }
 
-/****** images ******/
+.contact-message{
+    margin: 2rem auto 4rem auto;
+    max-width: 70%;
+}
+
+
+.footer-name{
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    padding-top: 0.6rem;
+}
+
+
+/******************************** images ********************************/
+
+
 .mountaine-image{
     width: 90%;
 }
@@ -131,3 +166,32 @@ p{
     float: right;
     margin-left: 1.8rem;
 }
+
+/******************************** Button ********************************/
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
